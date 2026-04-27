@@ -1,0 +1,91 @@
+{
+    "current_balance": 1500.00,
+    "transactions": [
+        {
+            "id": "TXN001",
+            "type": "income",
+            "date": "2026-04-01",
+            "amount": 1200.00,
+            "description": "Part-time job pay",
+            "source": "Employment",
+            "is_taxable": true
+        },
+        {
+            "id": "TXN002",
+            "type": "income",
+            "date": "2026-04-15",
+            "amount": 500.00,
+            "description": "Student loan installment",
+            "source": "Student Loan",
+            "is_taxable": false
+        },
+        {
+            "id": "TXN003",
+            "type": "expense",
+            "date": "2026-04-03",
+            "amount": 45.00,
+            "description": "Weekly groceries",
+            "category": "Food",
+            "importance": "Need"
+        },
+        {
+            "id": "TXN004",
+            "type": "expense",
+            "date": "2026-04-10",
+            "amount": 15.99,
+            "description": "Netflix subscription",
+            "category": "Entertainment",
+            "importance": "Want"
+        },
+        {
+            "id": "TXN005",
+            "type": "expense",
+            "date": "2026-04-12",
+            "amount": 60.00,
+            "description": "Textbooks",
+            "category": "Education",
+            "importance": "Need"
+        },
+        {
+            "id": "TXN006",
+            "type": "recurring_bill",
+            "date": "2026-04-01",
+            "amount": 450.00,
+            "description": "Monthly rent",
+            "category": "Housing",
+            "importance": "Need",
+            "frequency": "monthly",
+            "next_due_date": "2026-05-01"
+        },
+        {
+            "id": "TXN007",
+            "type": "recurring_bill",
+            "date": "2026-04-01",
+            "amount": 30.00,
+            "description": "Phone bill",
+            "category": "Utilities",
+            "importance": "Need",
+            "frequency": "monthly",
+            "next_due_date": "2026-05-01"
+        },
+        {
+            "id": "TXN008",
+            "type": "recurring_bill",
+            "date": "2026-04-07",
+            "amount": 9.99,
+            "description": "Spotify Premium",
+            "category": "Entertainment",
+            "importance": "Want",
+            "frequency": "monthly",
+            "next_due_date": "2026-05-07"
+        }
+    ],
+    "budgets": {
+        "Food": 150.00,
+        "Entertainment": 40.00,
+        "Education": 100.00,
+        "Housing": 500.00,
+        "Utilities": 60.00,
+        "Transport": 50.00
+    }
+}
